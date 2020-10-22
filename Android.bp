@@ -1,0 +1,9 @@
+cc_binary {
+    name: "dtbToolLineage",
+    defaults: [
+        "kernel_seperated_dt_defaults",
+    ],
+
+    srcs: ["dtbtool.c"],
+    cflags: ["-Wall"],
+}
